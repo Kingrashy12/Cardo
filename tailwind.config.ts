@@ -8,10 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#11253E",
+        secondary: "#fff",
+        typoColor: "#1D1D1C",
+      },
+      backgroundColor: {
+        primary: "#11253E",
+        secondary: "#fff",
+        transparentBlack: "rgb(0,0,0,.5)",
+      },
+      fontFamily: {
+        jakarta: "'Plus Jakarta Sans', sans-serif",
+        garamond: '"Cormorant Garamond", serif',
+        play: "'Play', sans-serif",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        imageSection: `url('/asset/background.png')`,
       },
     },
   },
