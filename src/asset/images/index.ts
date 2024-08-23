@@ -6,7 +6,7 @@ import Cardo_Card from "./cardo_card.png";
 import JamMenu from "./jam_menu.png";
 import Logo from "./Group 128.png";
 import ArrowLong from "./Group.png";
-import Background from "./Background.png";
+import Background from "./background.png";
 import CardoStar from "./Group 127.png";
 
 export {
